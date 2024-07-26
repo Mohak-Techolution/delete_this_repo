@@ -1,0 +1,6 @@
+messages are fire-and-forget:
+    in that if a message is published and no subscribers exists, the message evaporates and cannot be recovered
+
+client is put into subscriber mode
+    no commands can be issued by the client, the client has become read-only
+
